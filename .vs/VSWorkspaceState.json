@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\main",
+    "\\src\\main\\resources",
+    "\\src\\main\\resources\\db",
+    "\\src\\test",
+    "\\src\\test\\java",
+    "\\src\\test\\java\\com",
+    "\\src\\test\\java\\com\\nexturn",
+    "\\src\\test\\java\\com\\nexturn\\flyway",
+    "\\src\\test\\java\\com\\nexturn\\flyway\\demo-spring"
+  ],
+  "PreviewInSolutionExplorer": false
+}
