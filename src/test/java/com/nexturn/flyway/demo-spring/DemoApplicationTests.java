@@ -1,4 +1,4 @@
-package com.nexturn.flyway.demo-spring;
+package com.nexturn.flyway.demospring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

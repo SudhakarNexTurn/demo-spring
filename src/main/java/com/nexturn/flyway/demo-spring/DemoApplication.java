@@ -1,4 +1,4 @@
-package com.nexturn.flyway.demo-spring;
+package com.nexturn.flyway.demospring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
