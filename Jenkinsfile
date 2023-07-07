@@ -33,5 +33,10 @@ pipeline {
                 sh 'mvn install'
             }
         }
+        stage('deploy'){
+            steps {
+                sh 'java -jar target/demo-spring-1.0.0-SNAPSHOT.jar --spring.profiles.active=dev' 
+            }
+        }
     }
 }
