@@ -1,1 +1,6 @@
-INSERT INTO admins (id, firstname, email, created_at) VALUES (1, 'John', 'John@gmail.com', CURRENT_TIMESTAMP
+CREATE TABLE admins(
+	id INTEGER PRIMARY KEY,
+	firstname VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
