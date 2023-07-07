@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh 'version=`mvn help:evaluate -Dexpression=project.version -q -DforceStdout`'
                 sh 'project=`mvn help:evaluate -Dexpression=project.name -q -DforceStdout`'
-                sh 'java -jar target/$project-$version.jar --spring.profiles.active=dev' 
+                sh 'java -jar target/${project}-${version}.jar --spring.profiles.active=dev' 
             }
         }
     }
